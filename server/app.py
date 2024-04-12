@@ -1,6 +1,7 @@
 from flask import Flask, make_response
 from flask_migrate import Migrate
 
+
 from models import db, Author, Post
 
 app = Flask(__name__)
